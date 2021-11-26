@@ -1,0 +1,4 @@
+http://testphp.vulnweb.com/artists.php?artist=1
+http://testphp.vulnweb.com/artists.php?artist=2
+http://testphp.vulnweb.com/artists.php?artist=3
+http://testphp.vulnweb.com/artists.php?artist=4
