@@ -1,0 +1,87 @@
+plugins {
+    id 'com.android.application'
+}
+
+apply plugin: 'com.huawei.agconnect'  // HUAWEI agconnect Gradle plugin
+
+android {
+    signingConfigs {
+        release {
+            storeFile file('../app.jks')
+            keyAlias 'key'
+            keyPassword '123456'
+            storePassword '123456'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.example.emotial"
+        minSdkVersion 24
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.release
+            debuggable true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+}
+
+dependencies {
+    // Import the base SDK.
+    implementation 'com.huawei.hms:ml-computer-vision-face:2.0.5.300'
+    // Import the contour and key point detection model package.
+    implementation 'com.huawei.hms:ml-computer-vision-face-shape-point-model:2.0.5.300'
+    // Import the facial expression detection model package.
+    implementation 'com.huawei.hms:ml-computer-vision-face-emotion-model:2.0.5.300'
+    // Import the facial feature detection model package.
+    implementation 'com.huawei.hms:ml-computer-vision-face-feature-model:2.0.5.300'
+    // Import the 3D face detection model package.
+    implementation 'com.huawei.hms:ml-computer-vision-face-3d-model:2.0.5.300'
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    // For control over item selection of both touch and mouse driven selection
+    implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    testImplementation 'junit:junit:4.+'
+
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+}

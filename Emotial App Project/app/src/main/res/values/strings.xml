@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Emotial</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_check_mood">Check Mood</string>
+
+    <string-array name="songs">
+        <item>MONTERO</item>
+        <item>Roses</item>
+        <item>Beggin</item>
+        <item>good 4 u</item>
+        <item>Peaches</item>
+        <item>Save Your Tears</item>
+        <item>Mood</item>
+    </string-array>
+    
+    <string-array name="singers">
+        <item>Lil Nas X</item>
+        <item>SAINt JHN</item>
+        <item>Måneskin</item>
+        <item>Olivia Rodrigo</item>
+        <item>Justin Bieber</item>
+        <item>The Weeknd</item>
+        <item>24kGoldn</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
