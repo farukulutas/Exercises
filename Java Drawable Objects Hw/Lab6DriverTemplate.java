@@ -8,8 +8,8 @@ public class Lab6DriverTemplate {
 		ArrayList<ShapeGroup> shapeGroups = new ArrayList<ShapeGroup>();
 		ShapeGroup universalShapes = new ShapeGroup();
 		shapeGroups.add(universalShapes);
-		//GRAPHICS: The next line will be removed or commented out before submission to Moodle
-		//DrawingTool window = new DrawingTool(shapeGroups);
+		
+		DrawingTool window = new DrawingTool(shapeGroups);
 		
 		Scanner scan = new Scanner(System.in);
 		String userCommand = "";
@@ -153,10 +153,7 @@ public class Lab6DriverTemplate {
 					System.out.println( shapeGroups.get( groupNo2).toString());
 				}
 			}
-			
-			//GRAPHICS: The next line will be removed or commented out before submission to Moodle
-			//window.repaint();
-			
+			window.repaint();
 		}		
 		scan.close();
 		System.exit(0);
