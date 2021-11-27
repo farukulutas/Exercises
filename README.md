@@ -1,4 +1,4 @@
-# Exercises
+# Exercises :man_technologist:
 My work outside of school about competitions, assignments, projects and questions.
 
 :exclamation: The Qs and Hw sections are my solutions to questions and assignments that I found on different schools' websites for extra practice in different languages.
