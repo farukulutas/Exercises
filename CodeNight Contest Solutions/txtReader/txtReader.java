@@ -4,21 +4,21 @@ import java.io.*;
 
 public class txtReader {
 
-	public static int kaçKelime( String s ) {
+	public static int kaÃ§Kelime( String s ) {
 		int count = 0;
 		
 		for (int i = 0; i < s.length(); i++) {
 			if ( i > 2 ) {
 				if ( ( s.charAt(i) == ' ') && ( s.charAt(i - 2) != ' ' ) ) {
             		count++;
-            	}
-			}
+            		}
+		}
         }
 		
 		return count;
 	}
 	
-	public static int kaçKarakter( String s ) {
+	public static int kaÃ§Karakter( String s ) {
 		int count = 0;
 		
 		s = s.replaceAll("\\s+", "");
@@ -27,7 +27,7 @@ public class txtReader {
 		return count;
 	}
 	
-	public static int kaçCümle( String s ) {
+	public static int kaÃ§CÃ¼mle( String s ) {
 		int count = 0;
 		
 		for (int i = 0; i < s.length(); i++) {
@@ -43,7 +43,7 @@ public class txtReader {
         String path = "C:\\Users\\Faruk\\Downloads\\Genclige_Hitabe.txt";
         String st = bufferReaderMethod( path );
         System.out.println( st);
-        System.out.println( "Kelime sayısı: " + kaçKelime( st) + "\nKarakter sayısı: " + kaçKarakter( st) + "\nCümle Sayısı: " + kaçCümle( st) );
+        System.out.println( "Kelime sayÃ½sÃ½: " + kaÃ§Kelime( st) + "\nKarakter sayÃ½sÃ½: " + kaÃ§Karakter( st) + "\nCÃ¼mle SayÃ½sÃ½: " + kaÃ§CÃ¼mle( st) );
 	}
     
     public static String bufferReaderMethod(String filePath) 
