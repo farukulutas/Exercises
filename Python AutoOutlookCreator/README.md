@@ -1,5 +1,8 @@
 # Requirements
 
+:exclamation: You have to install the imports (pyautogui, time, keyboard, random, win32api, win32con, webbrowser, names).
+Sample; "pip install pyautogui"
+
 :exclamation: You should edit the phone number and password variables as you wish.
 
 :exclamation: Adds accounts created to emails.txt. 
