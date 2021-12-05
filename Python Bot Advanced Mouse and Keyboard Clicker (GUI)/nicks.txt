@@ -1,3 +1,0 @@
-# If the program uses the add nickname method when it runs, it adds the created nickname here.
-kevinwashington81157
-amandamoher95186
