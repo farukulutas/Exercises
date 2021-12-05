@@ -33,6 +33,9 @@ Gui-based drawable geometric shapes.
 `Java Hospital OOP Qs`
 My solution to the OOP based hospital question. 
 
+`Java Keyboard and Mouse Clicker`
+Simple Outlook mail account opener.
+
 `Java PriorityQueue Scheduler`
 My solution to the PriorityQueue based scheduler.
 
@@ -46,6 +49,9 @@ My solution to the stack based myStack question.
 My final project for the Certified Cyber Security Specialist course.
 - `81 İlde Siber - Proje - OWASP A1 2017-Injection.pdf`: Documentation for OWASP A1 2017-Injection vulnerability. 
 - `sqlfinder.py`: The tool that scans the sites in the given txt file for sql vulnerability. 
+
+`Python AutoOutlookCreator`
+Application that automatically opens an outlook account.
 
 `SQL SimpleQueries Qs`
 My solution to the SimpleQueries on PostgreSQL.
