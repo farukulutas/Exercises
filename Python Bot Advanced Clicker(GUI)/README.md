@@ -1,25 +1,26 @@
-This project has been prepared according to the need to open automatic accounts and answer questions. There are no steps like right click at this point. You can add extra buttons and steps if desired. 
+# Intro
+:exclamation: This project has been prepared according to the need to open automatic accounts and answer questions. There are no steps like right click at this point. You can add extra buttons and steps if desired. 
 
 # Features
-Clear steps.
+:exclamation: Clear steps.
 
-Add left click.
+:exclamation: Add left click.
 
-Add a randomly generated username.
+:exclamation: Add a randomly generated username.
 
-Add a randomly generated full name associated with the username.
+:exclamation: Add a randomly generated full name associated with the username.
 
-Add password.
+:exclamation: Add password.
 
-Write what you want.
+:exclamation: Write what you want.
 
-Paste the copied content.
+:exclamation: Paste the copied content.
 
-Run it.
+:exclamation: Run it.
 
-Save the steps.
+:exclamation: Save the steps.
 
-Read the steps from script.txt.
+:exclamation: Read the steps from script.txt.
 
 # Requirements
 
