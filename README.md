@@ -53,5 +53,8 @@ My final project for the Certified Cyber Security Specialist course.
 `Python AutoOutlookCreator`
 Application that automatically opens an outlook account.
 
+`Python Bot Advanced Clicker(GUI)`
+Advanced automatic mouse and keyboard clicker with simple user interface.
+
 `SQL SimpleQueries Qs`
 My solution to the SimpleQueries on PostgreSQL.
