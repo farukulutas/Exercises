@@ -1,0 +1,2 @@
+# The program adds each created e-mail address here to log. 
+randomlycreatednickname@outlook.com
