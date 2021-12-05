@@ -56,8 +56,5 @@ Application that automatically opens an outlook account.
 `Python Bot Advanced Clicker(GUI)`
 Advanced automatic mouse and keyboard clicker with simple user interface.
 
-`Python caprekarNumber Qs`
-The program checks whether the entered input is the caprekar number.
-
 `SQL SimpleQueries Qs`
 My solution to the SimpleQueries on PostgreSQL.
