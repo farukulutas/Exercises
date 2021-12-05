@@ -3,7 +3,7 @@
 
 :heavy_check_mark: It is suitable enough for fully automatic use.
 
-<img src="https://github.com/farukulutas/Exercises/blob/main/Python%20Bot%20Advanced%20Clicker(GUI)/example.PNG" width="250" height="250" />
+<img src="https://github.com/farukulutas/Exercises/blob/main/Python%20Bot%20Advanced%20Clicker(GUI)/example.PNG" width="500" height="500" />
 
 # Features
 :star: Clear steps.
