@@ -1,30 +1,30 @@
 # Intro
-:exclamation: This project has been prepared according to the need to open automatic accounts and answer questions. There are no steps like right click at this point. You can add extra buttons and steps if desired.
+:hash: This project has been prepared according to the need to open automatic accounts and answer questions. There are no steps like right click at this point. You can add extra buttons and steps if desired.
 
 It is suitable enough for fully automatic use.
 
 # Features
-:exclamation: Clear steps.
+:star: Clear steps.
 
-:exclamation: Add left click.
+:star: Add left click.
 
-:exclamation: Add a randomly generated username.
+:star: Add a randomly generated username.
 
-:exclamation: Add a randomly generated full name associated with the username.
+:star: Add a randomly generated full name associated with the username.
 
-:exclamation: Add password.
+:star: Add password.
 
-:exclamation: Write what you want.
+:star: Write what you want.
 
-:exclamation: Paste the copied content.
+:star: Paste the copied content.
 
-:exclamation: Run it.
+:star: Run it.
 
-:exclamation: Save the steps.
+:star: Save the steps.
 
-:exclamation: Read the steps from script.txt.
+:star: Read the steps from script.txt.
 
-:exclamation: Adds the created account nicknames to nicks.txt. 
+:star: Adds the created account nicknames to nicks.txt. 
 
 # Requirements
 
