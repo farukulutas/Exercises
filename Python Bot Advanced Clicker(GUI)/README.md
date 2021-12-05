@@ -1,7 +1,7 @@
 # Intro
 :hash: This project has been prepared according to the need to open automatic accounts and answer questions. There are no steps like right click at this point. You can add extra buttons and steps if desired.
 
-It is suitable enough for fully automatic use.
+:heavy_check_mark: It is suitable enough for fully automatic use.
 
 # Features
 :star: Clear steps.
