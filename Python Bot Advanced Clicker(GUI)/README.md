@@ -26,7 +26,11 @@
 
 :star: Read the steps from script.txt.
 
-:star: Adds the created account nicknames to nicks.txt. 
+:star: Adds the created account nicknames to nicks.txt.
+
+:star: Add sleep time. 
+
+:new: For example, when you add "sleep15", the application will run time.sleep(15) for 15 seconds when it comes to that step. 
 
 # Requirements
 
