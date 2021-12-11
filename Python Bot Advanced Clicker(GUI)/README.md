@@ -28,7 +28,7 @@
 
 :star: Adds the created account nicknames to nicks.txt.
 
-:star: Add sleep time. 
+:star: Add sleep time by using "Add Answer". 
 
 :new: E.g, when you add sleep15, the application sleeps for 15 seconds when it comes to that step, that is, it runs time.sleep(15). 
 
