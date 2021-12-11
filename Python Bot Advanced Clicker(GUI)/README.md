@@ -30,7 +30,7 @@
 
 :star: Add sleep time. 
 
-:new: For example, when you add "sleep15", the application will run time.sleep(15) for 15 seconds when it comes to that step. 
+:new: E.g, when you add sleep15, the application sleeps for 15 seconds when it comes to that step, that is, it runs time.sleep(15). 
 
 # Requirements
 
