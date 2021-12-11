@@ -4,7 +4,7 @@ import names, random, win32api, win32con, json, time
 
 root = tk.Tk()
 root.title('Creator Bot')
-root.geometry("400x750")
+root.geometry("400x800")
 
 #Create frame and scrollbar
 my_frame = tk.Frame(root)
@@ -140,9 +140,8 @@ def run():
             else:
                 if ( i == "ctrlv"):
                     auto.hotkey('ctrl', 'v')
-                elif (i == "scroll"):
-                    time.sleep(5)
-                    auto.scroll(1000000000)
+                elif (i[0:5] == "sleep"):
+                    time.sleep(int(i[5:]) )
                 else:  
                     auto.typewrite(i)
         saveNick( "nicks.txt", name)
