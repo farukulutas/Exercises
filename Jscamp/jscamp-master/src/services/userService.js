@@ -8,7 +8,6 @@ const comesLastForSort = -1
 
 export default class UserService {
 
-
     // Constructor
     constructor(loggerService) {
         this.employees = []
