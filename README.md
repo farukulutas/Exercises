@@ -47,6 +47,8 @@ My solution to the stack based myStack question.
 
 `Jscamp`
 Assignments of the Software Developer Training Camp (JavaScript)
+- `AlgorithmExamples.js`: findPrime, friendsNumbers, listPerfectNumbersUpTo, primeNumbersUpTo1000 methods are written.
+- `userService.js`: The userService.js class in the jscamp-master\src\services directory has been refactored. 
 
 `Phyton SQL Inj. Finder Project`
 My final project for the Certified Cyber Security Specialist course.
