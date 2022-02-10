@@ -17,6 +17,9 @@ My solutions to the method questions asked to be written in Cpp language.
 - `shapeCalculator`: Area and perimeter calculations related to geometric objects.
 - `vectorDiceGame`: Implementation of dice rolling and summation using vectors. 
 
+`DPhi Bootcamp`
+Related to data science; Assignments of dpi bootcamps on python, pandas, matplotlib.
+
 `Emotial App Project`
 The application I prepared in the final round for the Huawei Coding Marathon competition. 12th/2368 participants.
 - `Emotial`: A mobile application that reads people's moods from the camera and recommends music according to their mood.
